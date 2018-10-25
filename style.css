@@ -36,6 +36,7 @@ header{
 	overflow: auto;
 	margin-top: 40px;
 	font-size: .85rem;
+
 }
 
 .comp{
@@ -63,6 +64,7 @@ header a{
 }
 .showcase{
 	padding-top: 90px;
+
 }
 .showcase img{
 	display: block;
@@ -72,7 +74,9 @@ header a{
 	text-align: center;
 	font-size: 2rem;
 }
-
+.info h1{
+	font-family: "Poppins";
+}
 .info p{
 	margin-top:10px;
 	font-size:1rem;
@@ -88,6 +92,12 @@ header a{
 	background-color: hsl(322, 100%, 66%);
 	color:white;
 	font-size:1.1rem ;
+	box-shadow: 0 1px 5px 1px #bdc3c7;
+}
+
+.mockup{
+	height:auto;
+	width:85%;
 }
 
 .n-sec{
@@ -136,8 +146,7 @@ header a{
 
 .t-sec{
 	background-color:hsl(207, 100%, 98%);
-	height:58vh;
-	overflow: hidden;
+	height:70vh;
 	padding-top: 10px;
 
 }
@@ -201,12 +210,13 @@ padding-top: 75px;
 	background-color:hsl(207, 100%, 98%);
 }
 .u-sec .container-1{
-	padding-top: 75px;
+	padding-top: 35px;
 }
 
 .users{
   float:left;
   width: 50%;
+  margin-top: 70px;
 }
 .users h2{
 	font-size: 1.9rem ;
@@ -247,9 +257,95 @@ padding-top: 75px;
 	background-color: hsl(322, 100%, 66%);
 	color:white;
 	font-size:1.1rem ;
+	box-shadow: 0 1px 5px 1px #bdc3c7;
+	margin-bottom: 10px;
 }
 .bg2-ready{
 	width:100%;
 	vertical-align: bottom;
 	padding-top: 110px;
+}
+
+
+
+
+footer{
+	background-color:hsl(192, 100%, 9%);
+	color:#ffffff;
+}
+footer .container-1{
+	padding: 40px 0;
+}
+
+.huddle{
+	float:left;
+	width:40%;
+}
+.huddle .footer-logo{
+   width:7%;
+   
+}
+.huddle h2{
+	display:inline;
+	margin-left:5px;
+	font-size: 2.1rem;
+}
+.huddle p{
+	margin:20px 0;
+	font-size: 1rem;
+	text-align: left;
+}
+.footer-icon{
+	width:4%;
+	vertical-align: bottom;
+}
+.huddle h3{
+	display: inline;
+	margin-left:5px;
+	font-size: 0.8rem;
+}
+.fabu{
+	margin-top: 45px;
+	
+}
+.fabu .fab{
+  margin-right: 15px;
+}
+
+.newsletter{
+	float:right;
+	width:40%;
+	
+}
+
+.newsletter h3{
+	font-size: 1.4rem;
+}
+
+.newsletter p{
+	font-size: 0.85rem;
+	margin-top:20px;
+}
+
+form {
+	margin-top: 35px;
+}
+
+input[type="email"], button[type="submit"] {
+	border:none;
+	height:5.3vh;
+	border-radius: 5px;
+	padding-left:8px;
+
+}
+
+input[type="email"]{
+	width:55%;
+}
+
+button[type="submit"] {
+    width:22%;
+    margin-left: 25px;
+    background-color: hsl(322, 100%, 66%);
+    color:white;
 }
