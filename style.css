@@ -17,13 +17,20 @@ a{
     text-decoration: none;
 
 }
+
 .container{
 	width:90%;
 	margin: auto;
 	overflow: auto;
 	position: relative;
-
 }
+.container-1{
+	width:85%;
+	margin: auto;
+	overflow: auto;
+	position: relative;
+}
+
 
 header{
 	overflow: auto;
@@ -86,7 +93,15 @@ header a{
 .n-sec{
 	padding-top: 65px;
 	font-size: 3.3rem;
-	overflow: auto;
+	width:100%;
+	display: block;
+}
+.fit img{
+	margin:0;
+	padding:0;
+	vertical-align: bottom;
+	width:100%;
+
 }
 
 
@@ -116,4 +131,125 @@ header a{
 	float: left;
     transform: translateX(0);
 
+}
+
+
+.t-sec{
+	background-color:hsl(207, 100%, 98%);
+	height:58vh;
+	overflow: hidden;
+	padding-top: 10px;
+
+}
+.together{
+	float:left;
+	width: 50%;
+	transform: translateY(50%);
+	position:relative;
+	z-index: 2;
+}
+.together h2{
+	font-size: 1.9rem ;
+	margin-bottom: 25px;
+}
+.together p{
+	font-size: 1rem;
+	text-align: left;
+}
+.t-sec img{
+	width:45%;
+	float:right;
+	
+}
+
+
+.f-sec .container-1 {
+padding-top: 75px;
+}
+.f-sec .bg-section{
+   width:100%;
+}
+
+.flowing{
+	width:40%;
+	height:auto;
+	float:left;	
+}
+.converse{
+	float:right;
+	width:50%;
+	position: relative;
+	top:70px;
+}
+.converse h2{
+	font-size: 1.9rem ;
+	margin-bottom: 19px;
+}
+.converse p{
+	font-size: 1rem;
+	text-align: left;
+
+}
+.bg-top{
+	margin-top:75px;
+	width:100%;
+	vertical-align: bottom;
+}
+
+
+.u-sec{
+	background-color:hsl(207, 100%, 98%);
+}
+.u-sec .container-1{
+	padding-top: 75px;
+}
+
+.users{
+  float:left;
+  width: 50%;
+}
+.users h2{
+	font-size: 1.9rem ;
+	margin-bottom: 25px;
+}
+.users p{
+	font-size: 1rem;
+	text-align: left;
+}
+.u-sec img{
+    width:45%;
+	float:right;
+	
+}
+
+.bg-ready{
+	width:100%;
+}
+
+.ready .container-1{
+	text-align: center;
+	padding-top: 75px;
+}
+.ready h2{
+
+}
+.ready h1{
+	font-size: 2rem;
+}
+.ready a{
+	padding-top: 7px;
+	display: inline-block;
+	border:none;
+	border-radius: 20px;
+	width:25%;
+	height:45px;
+	margin-top: 27px;
+	background-color: hsl(322, 100%, 66%);
+	color:white;
+	font-size:1.1rem ;
+}
+.bg2-ready{
+	width:100%;
+	vertical-align: bottom;
+	padding-top: 110px;
 }
