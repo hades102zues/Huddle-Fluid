@@ -62,6 +62,10 @@ header a{
 	padding-top: 5px;
 	
 }
+
+
+
+
 .showcase{
 	padding-top: 90px;
 
@@ -70,6 +74,10 @@ header a{
 	display: block;
 	margin: 70px auto 0;
 }
+
+
+
+
 .info{
 	text-align: center;
 	font-size: 2rem;
@@ -115,9 +123,15 @@ header a{
 }
 
 
+.info-group{
+	height:35vh;
+	width:65%;
+	margin:auto;
+}
+
 .community{
 	float: left;
-	transform: translateX(90%);
+
 }
 .community h4, .messages h4{
 	font-size:0.8rem ;
@@ -134,7 +148,7 @@ header a{
 
 .messages{
 	float: right;
-	transform: translateX(-95%);
+	
 }
 
 .messages img{
@@ -142,6 +156,8 @@ header a{
     transform: translateX(0);
 
 }
+
+
 
 
 .t-sec{
@@ -172,9 +188,13 @@ header a{
 }
 
 
+
+
+
 .f-sec .container-1 {
 padding-top: 75px;
 }
+
 .f-sec .bg-section{
    width:100%;
 }
@@ -204,6 +224,8 @@ padding-top: 75px;
 	width:100%;
 	vertical-align: bottom;
 }
+
+
 
 
 .u-sec{
